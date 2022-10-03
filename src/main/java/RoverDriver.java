@@ -1,4 +1,5 @@
 public class RoverDriver {
-    public void instruct(String commands) {
+    public String instruct(String commands) {
+        throw new UnsupportedOperationException();
     }
 }
