@@ -11,7 +11,7 @@ class MarsRoverTest {
     @Mock RoverDriver roverDriver;
 
     @Test
-    void foo() {
+    void passes_the_commands_to_driver() {
         MarsRover marsRover = new MarsRover(roverDriver);
         String commands = "L";
         marsRover.execute(commands);
